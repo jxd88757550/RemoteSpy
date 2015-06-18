@@ -4,6 +4,8 @@ Spy program is designed to monitor computer activity, able to receive remote com
 Spy is controlled via Jabber protocol by sending codes and parameters. All collected by the spy data sent to specified
 ftp server. Owner must have ftp hosting account and any Jabber client program.
 
+Once spy program is launched on target machine, it becomes auto-launching and starts to analize parameters and executes commands. If user types one of the predefined keywords, screenshot is taken and stores in spy directory with hidden attributes. Spy operator is capable remotely set tracking processes and windows to periodically take screenshots, while tracking parameters are present. Tracking parameters will be saved after reboot, they also can be revoked after explicit command. Another powerfull feature is executing system command on targeted machine. All collected logs and screenshots are stored hidden until receiving command to transfer them on owner's ftp server.
+
 Capabilities
 - Logging pressed keys
 - Taking screenshot by realtime command or by typed keyword on monitored machine
