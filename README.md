@@ -4,7 +4,7 @@ Spy program is designed to monitor computer activity, able to receive remote com
 Spy is controlled via Jabber protocol by sending codes and parameters. All collected by the spy data sent to specified
 ftp server. Owner must have ftp hosting account and any Jabber client program.
 
-Capabilities:
+Capabilities
 - Logging pressed keys
 - Taking screenshot by realtime command or by typed keyword on monitored machine
 - Recognition of directories structure and files with specific extensions
@@ -20,7 +20,7 @@ Command codes
 - 1 - take screenshot immediately
 - 2 - log pressed keys
 - 3 - log all directories
-- 4 - log of files with specific extensions to ftp server, example: 4;.txt;.jpg
+- 4 - log files with specific extensions, example: 4;.txt;.jpg
 - 5 - log working processes
 - 6 - log opened windows
 - 7 - stop tracking processes and windows
